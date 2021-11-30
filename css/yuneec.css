@@ -1,0 +1,107 @@
+html,
+body {
+    /* < !--盒子和浏览器的顶端有空隙。由于浏览器的默认的填充和边界造成的。消除空隙-->margin: auto; */
+    overflow-x:hidden;
+    overflow-y: hidden;
+    height: 99%;
+    width: 99%;
+    font-family: Sans-serif;
+    font-size: 16px;
+    color: #666666;
+    background: #ffffff;
+    text-align: center;
+    margin:10px;
+}
+
+#page-container {
+    /* //clear:both; */
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: auto;
+    /* < !--是左右自适应两边距离一样--居中，-->>margin: auto; */
+    background: red;
+    text-align: center;
+}
+
+/* < !--加入类，可以使页面上任意属于hidden类的元素(element)不显示-->.hidden {
+    display: none;
+} */
+
+#main-nav {
+    background: rgb(240, 239, 230);
+    /*position:absolute;会导致main-nav高度不符*/
+    height: 8%;
+    width: 100%;
+    text-align: center;
+    /* border-style: dotted; */
+    overflow: hidden;
+}
+
+#multi {
+    background: black;
+    height: 82%;
+    width: 100%;
+    float: auto;
+    font-family: "黑体";
+    text-decoration: underline;
+}
+
+#pageLeft {
+    background: rgb(210, 221, 231);
+    clear: both;
+    height: 100%;
+    width: 15%;
+    float: left;
+    font-family: "黑体";
+    text-decoration: underline;
+    border-style: none;
+}
+
+#footer {
+    background: green;
+    width: 85%;
+    height: 100%;
+    float: right;
+}
+
+
+#centerTop {
+    clear: both;
+    margin: auto;
+    background: rgb(228, 219, 219);
+    width: 100%;
+    height: 20%;
+    text-align: left;
+
+}
+
+#map {
+    background: rgb(167, 167, 82);
+    float: left;
+    width: 60%;
+    height: 80%;
+    /* border-style:solid; */
+}
+
+#video {
+    clear: both;
+    background: lavender;
+    float: right;
+    width: 40%;
+    height: 80%;
+    text-align:center;
+    /* //border-style:solid; */
+}
+
+
+#pageBottom {
+    clear: both;
+    background: rgb(211, 194, 191);
+    height: 10%;
+    text-decoration: underline;
+    font-family: "华文新魏";
+    border-style: ridge;
+    /*虚线*/
+}
