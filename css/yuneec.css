@@ -34,9 +34,12 @@ body {
     /*position:absolute;会导致main-nav高度不符*/
     height: 8%;
     width: 100%;
-    text-align: center;
     /* border-style: dotted; */
     overflow: hidden;
+    position:absolute/fixed;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 #multi {
@@ -103,5 +106,9 @@ body {
     text-decoration: underline;
     font-family: "华文新魏";
     border-style: ridge;
+    position:absolute/fixed;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     /*虚线*/
 }
